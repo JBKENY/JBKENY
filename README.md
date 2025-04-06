@@ -90,7 +90,7 @@
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
-##  CONTACT PK DRILLER ON SERIOUS BUSINESS ONLY👇
+##  CONTACT ON SERIOUS BUSINESS ONLY👇
   
 <a href="https://wa.me/254785392165"> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/WhatsApp.png" width="13%"> </a>
   <a href="https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x"> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/WhatsApp.png" width="13%"> </a>
@@ -112,11 +112,3 @@
         <img height="30" title="Support Group" src="https://img.shields.io/badge/Support%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white">
     </a>
 </p>
-
-## PK DRILLER 𝐓𝐄𝐂𝐇 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 
-
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=DAA520&center=true&width=910&height=100&lines=MULTI-DEVICE QUEEN-M BOT +MAKE; STAR ⭐+AND+FORKS+BY+QUEEN-M" alt="Typing SVG" /></a>
-
-<div align="center">
-<a href='https://ko-fi.com/pkdriller' target='_blank'><img height='64' style='border:0px;height:64px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
-</div>
