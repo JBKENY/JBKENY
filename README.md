@@ -10,7 +10,7 @@
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&size=30&pause=1000&color=0000FF&center=true&vCenter=true&width=815&height=60&lines=QUEEN+M+)](https://git.io/typing-svg) 
 
-<p align="centre"><img src="https://files.catbox.moe/vm9usm.jpeg" width="500" height="500" />
+<p align="centre"><img src="https://files.catbox.moe/ai3c14.jpg" width="500" height="500" />
 
 
 
@@ -19,16 +19,16 @@
 
 
 <p align="center">
-<a href="https://github.com/pkdriller/followers"><img title="Followers" src="https://img.shields.io/github/followers/pkdriller?color=blue&style=flat-square"></a>
-<a href="https://github.com/pkdriller/QUEEN-M/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/pkdriller/QUEEN-M?color=blue&style=flat-square"></a>
-<a href="https://github.com/pkdriller/QUEEN-M/network/members"><img title="Forks" src="https://img.shields.io/github/forks/pkdriller/QUEEN-M?color=blue&style=flat-square"></a>
-<a href="https://github.com/pkdriller/QUEEN-M"><img title="Size" src="https://img.shields.io/github/repo-size/pkdriller/QUEEN-M?style=flat-square&color=blue"></a>
-<a href="https://github.com/pkdriller/QUEEN-M/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>&nbsp;&nbsp;
+<a href="https://github.com/jbm-x/followers"><img title="Followers" src="https://img.shields.io/github/followers/jbm-x?color=blue&style=flat-square"></a>
+<a href="https://github.com/jbm-x/jacob-xmd/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/jbm-x/jacob-xmd?color=blue&style=flat-square"></a>
+<a href="https://github.com/JBM-X/jacob-xmd/network/members"><img title="Forks" src="https://img.shields.io/github/forks/JBM-X/jacob-xmd?color=red&style=flat-square"></a>
+<a href="https://github.com//jbm-x/jacob-xmd"><img title="Size" src="https://img.shields.io/github/repo-size/jbm-x/jacob-xmd?style=flat-square&color=blue"></a>
+<a href="https://github.com/JBM-X/jacob-xmd/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>&nbsp;&nbsp;
 </p>
 <p align='center'>
 </p>
 
- <p align="center"><img src="https://profile-counter.glitch.me/{QUEEN-M}/count.svg" alt="pkdriller:: Visitor's Count" old_src="https://profile-counter.glitch.me/{pkdriller}/count.svg" /></p>
+ <p align="center"><img src="https://profile-counter.glitch.me/{jacob-xmd}/count.svg" alt="jacob-xmd:: Visitor's Count" old_src="https://profile-counter.glitch.me/{jacob-xmd}/count.svg" /></p>
 
 
 
@@ -43,7 +43,7 @@
 
   
    
-   <a href="https://github.com/pkdriller/QUEEN-M/fork"><img title="FORK-REPO" src="https://img.shields.io/badge/FORK-REPO-h?color=blue&style=for-the-badge&logo=Nike" width="297" height="40.45"/></a></p>
+   <a href="https://github.com/JBM-X/jacob-xmd/fork"><img title="FORK-REPO" src="https://img.shields.io/badge/FORK-REPO-h?color=blue&style=for-the-badge&logo=Nike" width="297" height="40.45"/></a></p>
 
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
@@ -69,7 +69,7 @@
 
    🕳IF YOU DON'T HAVE A HEROKU ACCOUNT...CREATE ONE
    
-   <a href="https://signup.heroku.com/"><img title="CREATE-ACCOUNT" src="https://img.shields.io/badge/CREATE-ACCOUNT-h?color=blue&style=for-the-badge&logo=red" width="180" height="43.45"/></a></p>
+   <a href="https://signup.heroku.com/"><img title="CREATE-ACCOUNT" src="https://img.shields.io/badge/CREATE-ACCOUNT-h?color=red&style=for-the-badge&logo=red" width="180" height="43.45"/></a></p>
 
    ☢️IF YOU ALREADY HAVE A HEROKU ACCOUNT...DEPLOY NOW
 
