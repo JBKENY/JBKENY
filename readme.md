@@ -1,7 +1,7 @@
 
 <p align="center">  
   <a href="https://files.catbox.moe/ibi3x2.jpg">
-    <img alt="secktor docs" height="300" src="https://files.catbox.moe/n6dmx3.jpeg">
+    <img alt="secktor docs" height="300" src="https://files.catbox.moe/ibi3x2.jpg">
     <h1 align="center"> JBKENY - POWERED BY JBKENY</h1>
   </a>
 </p>  
