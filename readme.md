@@ -35,7 +35,7 @@
 
 <p align="center">
   <a href="https://jbm.onrender.com">
-    <img title="GET SESSION" src="https://img.shields.io/badge/GET SESSION-neonred?style=for-the-badge&logo=charleske" width="220" height="60.45"/>
+    <img title="GET SESSION" src="https://img.shields.io/badge/GET SESSION-neonred?style=for-the-badge&logo=JBKENY" width="220" height="60.45"/>
   </a>
 </p>
 
