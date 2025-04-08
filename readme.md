@@ -13,7 +13,7 @@
 
 <p align="center">
   <a href="https://github.com/JBKENY"><img title="Author" src="https://img.shields.io/badge/JBKENY-black?style=for-the-badge&logo=Github"></a> 
-  <a href="https://https://chat.whatsapp.com/BlYI9Cdy4q2KIbovipzKtO"><img title="Channel" src="https://img.shields.io/badge/CHANNEL-black?style=for-the-badge&logo=whatsapp"></a> 
+  <a href="https://chat.whatsapp.com/BlYI9Cdy4q2KIbovipzKtO"><img title="Channel" src="https://img.shields.io/badge/CHANNEL-black?style=for-the-badge&logo=whatsapp"></a> 
   <a href="https://wa.me/254736512615"><img title="Chat" src="https://img.shields.io/badge/CHAT US-neon?style=for-the-badge&logo=whatsapp"></a>
 </p>
 
