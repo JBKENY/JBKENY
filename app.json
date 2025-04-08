@@ -1,5 +1,5 @@
 {
-  "name": "Obed",
+  "name": "JBKENY",
   "description": "Whatsapp device bot made to help Whatsapp users to enjoy while helping..",
   "keywords": [
     "bot",
@@ -7,7 +7,7 @@
     "baileys",
     "whatsapp"
   ],
-  "logo": "https://files.catbox.moe/o6me6t.jpeg",
+  "logo": "https://files.catbox.moe/ibi3x2.jpg",
   "repository": "https://github.com/Trippleo1802/Kicked",
   "succes_url": "/",
   "stack": "container",
@@ -59,7 +59,7 @@
     },
     "AUTO_STATUS_TEXT": {
       "description": "type your genuine status message",
-      "value": "viewed ✅✅",
+      "value": "viewed ✅",
       "required": false
     },
     "AUTO_STATUS_REPLY": {
@@ -74,7 +74,7 @@
     },
     "BOT_NAME": {
       "description": "you must give a name for you bot uhh??!!",
-      "value": "𝐂𝐇𝐀𝐑𝐋𝐄𝐒 𝐊E",
+      "value": "JBKENY",
       "required": false 
     },
     "PUBLIC_MODE": {
@@ -99,12 +99,12 @@
     },
     "OWNER_NAME": {
       "description": "don't you have a name bro.Insert your name here!!",
-      "value": "Obed",
+      "value": "JBKENY",
       "required": false
     },
     "URL": {
       "description": "you must add your bot image url.Get your image url now and fill it here",
-      "value": "https://ibb.co/q70RyBd",
+      "value": "https://files.catbox.moe/ibi3x2.jpg",
       "required": true
     },
     "AUTO_READ_MESSAGES": {
@@ -113,8 +113,8 @@
       "required": false  
     },
     "NUMERO_OWNER": {
-      "description": "Your phone number (exclude '+' and area code, e.g., '255752593977')",
-      "value": "254759626063",
+      "description": "Your phone number (exclude '+' and area code, e.g., '254736512615')",
+      "value": "254736512615",
       "required": false
     },
     "WARN_COUNT": {
