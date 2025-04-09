@@ -63,7 +63,7 @@
 🚗 **High Performance** - Optimized for speed and efficiency  
 🛡️ **Secure** - Built-in security mechanisms  
 🔄 **Auto Updates** - Stay up-to-date with the latest improvements  
-⚙️ **Customization** - Fully configurable settings  
+⚙️ **Customization** - Fully .configurable settings  
 
 ---
 
