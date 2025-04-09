@@ -1,4 +1,3 @@
-
 const {zokou} = require("../framework/zokou");
 const {getMessagesAndXPByJID,getBottom10Users} = require("../bdd/level");
 
@@ -135,7 +134,7 @@ zokou( {
     
     
          let msg = `
-┏━━━┛ 𝐉𝐁𝐊𝐄𝐍𝐘┗━━━┓
+┏━━━┛ 𝐂𝐇𝐀𝐑𝐋𝐄𝐒 𝐊𝐄 ┗━━━┓
          
     *Name :* @${auteurMsgRepondu.split("@")[0]}
     
@@ -211,7 +210,7 @@ zokou( {
     
     
          let msg = `
-┏━━━┛ 𝐉𝐁𝐊𝐄𝐍𝐘 𝐑𝐀𝐍𝐊┗━━━┓
+┏━━━┛ 𝐉𝐁𝐊𝐄𝐍𝐘 rank┗━━━┓
      
   *Name :* ${nomAuteurMessage}
 
@@ -252,7 +251,7 @@ zokou( {
     const {ms , mybotpic} = commandeOptions ;
 
 
-       let msg = `┏━━┛ 𝐣𝐛𝐤𝐞𝐧𝐲 ┗━━┓\n\n`
+       let msg = `┏━━┛ beltah-top-rang ┗━━┓\n\n`
        
       let topRanks = await getBottom10Users() ;
         let mention = [] ;

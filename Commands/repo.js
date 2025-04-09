@@ -1,85 +1,87 @@
-"use strict";
-const { zokou } = require("../framework/zokou");
-const axios = require("axios");
+const axios = require('axios');
+const moment = require("moment-timezone");
+const { zokou } = require(__dirname + "/../framework/zokou");
 
-zokou({ 
-  nomCom: "repo", 
-  categorie: "General",
-  reaction: "🔎",
-  aliases: ["source", "script"],
-  desc: "Show bot repository information",
-  nomFichier: __filename 
-}, async (dest, zk, commandeOptions) => {
-  const { repondre, prefixe } = commandeOptions;
-  const githubRepo = 'https://api.github.com/repos/JBKENY/JBKENY;
-  const thumbnailImg = 'https://files.catbox.moe/ibi3x2.jpg';
-  const channelThumbnail = 'https://files.catbox.moe/6e35pz.jpg';
+// Function to format large numbers with commas
+const formatNumber = (num) => num.toLocaleString();
 
-  try {
-    // Fetch repository data
-    const response = await axios.get(githubRepo, { timeout: 10000 });
-    const data = response.data;
+// Function to fetch detailed GitHub repository information
+const fetchGitHubRepoDetails = async () => {
+    try {
+        const repo = 'JBKENY/JBKENY'; // Updated repo
+        const response = await axios.get(`https://api.github.com/repos/${repo}`);
+        const {
+            name, description, forks_count, stargazers_count,
+            watchers_count, open_issues_count, owner, license
+        } = response.data;
 
-    if (!data) {
-      return repondre("Could not fetch data");
+        return {
+            name,
+            description: description || "No description provided",
+            forks: forks_count,
+            stars: stargazers_count,
+            watchers: watchers_count,
+            issues: open_issues_count,
+            owner: owner.login,
+            license: license ? license.name : "No license",
+            url: response.data.html_url,
+        };
+    } catch (error) {
+        console.error("Error fetching GitHub repository details:", error);
+        return null;
     }
+};
 
-    const repoInfo = {
-      stars: data.stargazers_count,
-      forks: data.forks_count,
-      lastUpdate: new Date(data.updated_at).toLocaleDateString('en-GB'),
-      owner: data.owner.login,
-    };
+// Define the commands that can trigger this functionality
+const commands = ["git", "repo", "script", "sc"];
 
-    const releaseDate = new Date(data.created_at).toLocaleDateString('en-GB');
+commands.forEach((command) => {
+    zokou({ nomCom: command, categorie: "GitHub" }, async (dest, zk, commandeOptions) => {
+        let { repondre } = commandeOptions;
 
-    // Enhanced cage design with channel information
-    const gitdata = `
-╭━━━〔 *𝐉𝐁𝐊𝐄𝐍𝐘* 〕━━━┈⊷
-┃★╭──────────────
-┃★│ *Prefix : [ ${prefixe} ]*
-┃★│ *Baileys : Multi Device*
-┃★│ *Type : NodeJs*
-┃★│ *Platform : Heroku*
-┃★│ *Version : 1.0*
-┃★│ *Owner : PkDriller*
-┃★╰──────────────
-╰━━━━━━━━━━━━━━━┈⊷
+        const repoDetails = await fetchGitHubRepoDetails();
 
-╭━━━〔 *Repository Info* 〕━━━┈⊷
-┃★ *𝐑𝐞𝐩𝐨:* ${data.html_url}
-┃★ *𝐒𝐭𝐚𝐫𝐞𝐫𝐬:* ${repoInfo.stars}
-┃★ *𝐅𝐨𝐫𝐤𝐬:* ${repoInfo.forks}
-┃★ *𝐑𝐞𝐥𝐞𝐚𝐬𝐞 𝐃𝐚𝐭𝐞:* ${releaseDate}
-┃★ *𝐋𝐚𝐬𝐭 𝐔𝐩𝐝𝐚𝐭𝐞:* ${repoInfo.lastUpdate}
-╰━━━━━━━━━━━━━━━━━━━━━━━━┈⊷
-
-*Join our channel for updates!*`;
-
-    await zk.sendMessage(dest, { 
-      image: { url: thumbnailImg }, 
-      caption: gitdata,
-      contextInfo: {
-        isForwarded: true,
-        forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363288304618280@newsletter',
-          newsletterName: "Queen-M",
-          serverMessageId: -1,
-        },
-        forwardingScore: 999,
-        externalAdReply: {
-          title: "Queen-M",
-          body: "Next Generation",
-          thumbnailUrl: channelThumbnail,
-          sourceUrl: 'https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x',
-          mediaType: 1,
-          renderLargerThumbnail: true
+        if (!repoDetails) {
+            repondre("❌ Failed to fetch GitHub repository information.");
+            return;
         }
-      }
-    });
 
-  } catch (error) {
-    console.log("Error fetching data:", error);
-    repondre("An error occurred while fetching repository data.");
-  }
+        const {
+            name, description, forks, stars, watchers,
+            issues, owner, license, url
+        } = repoDetails;
+
+        const currentTime = moment().format('DD/MM/YYYY HH:mm:ss');
+        const infoMessage = `
+🌐 *GitHub Repository Info* 🌐
+
+💻 *Name:* ${name}
+📜 *Description:* ${description}
+⭐ *Stars:* ${formatNumber(stars)}
+🍴 *Forks:* ${formatNumber(forks)}
+👀 *Watchers:* ${formatNumber(watchers)}
+❗ *Open Issues:* ${formatNumber(issues)}
+👤 *Owner:* ${owner}
+📄 *License:* ${license}
+
+📅 *Fetched on:* ${currentTime}
+`;
+
+        try {
+            // Send the follow-up image first with a caption
+            await zk.sendMessage(dest, {
+                image: { url: "https://files.catbox.moe/9zfoek.png" }, // Updated image
+                caption: `✨ Repository Highlights ✨\n\n🛠️ Developed by *JBKENY*\n📢 Stay updated\nhttps://chat.whatsapp.com/BlYI9Cdy4q2KIbovipzKtO\n\nRepo Url\nhttps://github.com/JBKENY/JBKENY`,
+            });
+
+            // Follow up with the GitHub repository details
+            await zk.sendMessage(dest, {
+                text: infoMessage,
+            });
+
+        } catch (e) {
+            console.log("❌ Error sending GitHub info:", e);
+            repondre("❌ Error sending GitHub info: " + e.message);
+        }
+    });
 });
