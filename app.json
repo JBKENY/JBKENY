@@ -7,7 +7,7 @@
     "baileys",
     "whatsapp"
   ],
-  "logo": "https://files.catbox.moe/o6me6t.jpeg",
+  "logo": "https://files.catbox.moe/9zfoek.png",
   "repository": "https://github.com/Trippleo1802/Kicked",
   "succes_url": "/",
   "stack": "container",
@@ -74,7 +74,7 @@
     },
     "BOT_NAME": {
       "description": "you must give a name for you bot uhh??!!",
-      "value": "𝐂𝐇𝐀𝐑𝐋𝐄𝐒 𝐊E",
+      "value": "Jbkeny",
       "required": false 
     },
     "PUBLIC_MODE": {
