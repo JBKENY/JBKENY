@@ -19,7 +19,7 @@
 <p align="center">
   <a href="https://github.com/charleske"><img title="Author" src="https://img.shields.io/badge/charleske-black?style=for-the-badge&logo=Github"></a> 
   <a href="https://whatsapp.com/channel/0029VaZuGSxEawdxZK9CzM0Y"><img title="Channel" src="https://img.shields.io/badge/CHANNEL-black?style=for-the-badge&logo=whatsapp"></a> 
-  <a href="https://wa.me/254759626063"><img title="Chat" src="https://img.shields.io/badge/CHAT US-neon?style=for-the-badge&logo=whatsapp"></a>
+  <a href="https://wa.me/254736512615"><img title="Chat" src="https://img.shields.io/badge/CHAT US-neon?style=for-the-badge&logo=whatsapp"></a>
 </p>
 
 <p align="center">
@@ -41,7 +41,7 @@
 
 ---
 
-## 🧚‍♂️ CHARLESKE'S DEPLOYMENT OPTIONS
+## 🧚‍♂️ JBKENY DEPLOYMENT OPTIONS
 
 ### 🔹 DEPLOY ON HEROKU
 
@@ -59,7 +59,7 @@
 
 - **PANEL:**
 [Click here](https://img.shield.io/badge/➤Click-Here-pink.svg)](https://host.talkdrove.com/auth/signup?ref=7D90F312)
-## ⚡ CHARLESKE BOT INFO  
+## ⚡ JBKENY BOT INFO  
 🚗 **High Performance** - Optimized for speed and efficiency  
 🛡️ **Secure** - Built-in security mechanisms  
 🔄 **Auto Updates** - Stay up-to-date with the latest improvements  
@@ -67,4 +67,4 @@
 
 ---
 
-**© 2025 CHARLESKE | Built with ❤️ by CHARLESKE**
+**© 2025 JBKENY | Built with ❤️ by JBKENY**
